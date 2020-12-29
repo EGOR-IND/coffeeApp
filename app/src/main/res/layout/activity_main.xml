@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/moon_phase">
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:hint="NAME"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:background="@drawable/btm_line_shape"
+        android:maxLength="21"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOPPINGS"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="20dp"/>
+
+    <CheckBox
+        android:id="@+id/whippedCream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Whipped cream"
+        android:textSize="15dp"
+        android:textColor="#FFFFFF"
+        android:buttonTint="#FFFFFF"
+        android:layout_marginTop="125dp"
+        android:layout_marginLeft="14dp"/>
+
+    <CheckBox
+        android:id="@+id/chocolate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chocolate"
+        android:textSize="15dp"
+        android:textColor="#FFFFFF"
+        android:buttonTint="#FFFFFF"
+        android:layout_marginTop="155dp"
+        android:layout_marginLeft="14dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUANTITY"
+        android:textSize="20dp"
+        android:textColor=" #FFFFFF"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="&lt;"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:background="#5b342e"
+        android:layout_marginTop="233dp"
+        android:layout_marginLeft="20dp"
+        android:onClick="decreament"/>
+
+    <EditText
+        android:id="@+id/quantity"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:enabled="false"
+        android:text="0"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:background="@null"
+        android:layout_marginTop="234dp"
+        android:layout_marginLeft="72dp"/>
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="&gt;"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:background="#5b342e"
+        android:layout_marginTop="233dp"
+        android:layout_marginLeft="120dp"
+        android:onClick="increament"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ORDER SUMMARY"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total: &#x20B9; 0.00"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="30dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="ORDER"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:background="#5b342e"
+        android:onClick="orderSummary"/>
+
+
+</RelativeLayout>

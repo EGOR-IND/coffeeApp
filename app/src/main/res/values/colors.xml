@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#35281E</color>
+    <color name="colorPrimaryDark">#321414</color>
+    <color name="colorAccent">#5b342e</color>
+    <color name="russOrange">#fb8c00</color>
+    <color name="scoreBoardDark">#212121</color>
+    <color name="scoreBoardOrange">#f57c00</color>
+    <color name="Black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>
